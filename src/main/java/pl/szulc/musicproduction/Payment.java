@@ -1,7 +1,11 @@
 package pl.szulc.musicproduction;
 
+import java.time.LocalDate;
+import java.util.List;
+
 public class Payment {
-    private float projectValue;
-    private float clientPaid;
+    private float paymentAmount;
+    private LocalDate dateOfPayment;
+
 
 }
